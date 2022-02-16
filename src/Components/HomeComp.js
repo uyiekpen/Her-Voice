@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 
+
 const HomeComp = () => {
   return (
     <Container>
@@ -57,7 +58,7 @@ const Wrapper = styled.div`
 
 const Top = styled.div`
     color: white;
-    font-size: 80px;
+    font-size: 50px;
     width: 60%;
     text-align: center;
     font-weight: bold;
@@ -104,6 +105,7 @@ const Mission = styled.div`
 `
 const Big = styled.div`
     text-transform: capitalize;
+    font-size: 35px;
 `
 const Small = styled.div`
     font-size: 20px;

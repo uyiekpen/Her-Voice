@@ -49,10 +49,11 @@ const Container = styled.div`
     align-items: center;
     @media (min-width: 300px) and (max-width: 768px) {
     width: 100%;
-    height:650px;
+    height:600px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:70px;
     }
 `
 const Wrapper = styled.div`
@@ -78,6 +79,7 @@ const Top = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
     }
     
 `
@@ -169,7 +171,7 @@ const Right = styled.div`
     flex-direction: column;
 
     @media (min-width: 300px) and (max-width: 768px) {
-        width: 80%;
+        width: 90%;
         margin-top: 10px;
     }
 `
@@ -192,7 +194,7 @@ const Paragraph = styled.div`
 
     @media (min-width: 300px) and (max-width: 768px) {
         line-height: 11px;
-        font-size: 10px
+        font-size: 12px
     }
     @media (min-width: 1024px) and (max-width: 1440px) {
         line-height: 16px;
@@ -207,13 +209,13 @@ const Paragraph1 = styled.div`
 
     @media (min-width: 300px) and (max-width: 768px) {
         line-height: 11px;
-        font-size: 10px;
+        font-size: 12px
     }
 
     @media (min-width: 1024px) and (max-width: 1440px) {
         line-height: 16px;
         font-size: 15px;
-        margin-top: 10px;
+        font-size: 12px
     }
 `
 const Paragraph2 = styled.div`
@@ -223,12 +225,12 @@ const Paragraph2 = styled.div`
 
     @media (min-width: 300px) and (max-width: 768px) {
         line-height: 11px;
-        font-size: 10px
+        font-size: 12px
     }
     @media (min-width: 1024px) and (max-width: 1440px) {
         line-height: 16px;
         font-size: 15px;
-        margin-top: 10px;
+        font-size: 12px
     }
 `
 
@@ -236,7 +238,7 @@ const DonateButton = styled.div`
 `
 const Donate = styled.div`
     width: 150px;
-    height: 50px;
+    height: 40px;
     border-radius: 5px;
     background-color: #E9538D;
     color: white;
