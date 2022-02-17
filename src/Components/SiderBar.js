@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
 import {GiCancel} from "react-icons/gi"
-import { Link as LinkR } from "react-router-dom"
+import { Link as LinkS } from "react-scroll"
 
 
 
@@ -18,11 +18,11 @@ const SiderBar = ({ isOpen , onToggle}) => {
             </IconHolder>
 
         <SideBarContent >
-            <ContentSign  onClick={onToggle}>Home</ContentSign>
-            <ContentSign  onClick={onToggle}>About</ContentSign>
-            <ContentSign  onClick={onToggle}>Support us</ContentSign>
-            <ContentSign onClick={onToggle}>Event </ContentSign>
-            <ContentSign onClick={onToggle}>Contact</ContentSign>
+            <ContentSign to="home" spy={true} smooth={true} onClick={onToggle}>Home</ContentSign>
+            <ContentSign to="about" spy={true} smooth={true}  onClick={onToggle}>About</ContentSign>
+            <ContentSign to="team" spy={true} smooth={true} onClick={onToggle}>Team </ContentSign>
+            <ContentSign to="events" spy={true} smooth={true}  onClick={onToggle}>Event </ContentSign>
+            <ContentSign to="contact" onClick={onToggle}>Contact</ContentSign>
             
 
         </SideBarContent>
@@ -87,7 +87,7 @@ display: grid;
 
 
 
-const ContentSign = styled.div`
+const ContentSign = styled(LinkS)`
 margin-top: 10px;
 margin-top: 0.5rem;
 

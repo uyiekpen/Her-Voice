@@ -3,7 +3,7 @@ import styled from "styled-components"
 
 const About = () => {
   return (
-    <Container>
+    <Container id="about">
         <Wrapper>
             <Top>
                 <Big>ABOUT US</Big>
@@ -169,6 +169,7 @@ const Right = styled.div`
     height: 80%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
     @media (min-width: 300px) and (max-width: 768px) {
         width: 90%;
@@ -189,7 +190,8 @@ const Head = styled.div`
 `
 const Paragraph = styled.div`
     font-size: 15px;
-    line-height: 30px;
+    line-height: 1.5;
+letter-spacing: 1.5px;
     margin-top: 15px;
 
     @media (min-width: 300px) and (max-width: 768px) {
@@ -204,7 +206,8 @@ const Paragraph = styled.div`
 `
 const Paragraph1 = styled.div`
     font-size: 15px;
-    line-height: 30px;
+    line-height: 1.5;
+letter-spacing: 1.5px;
     margin-top: 15px;
 
     @media (min-width: 300px) and (max-width: 768px) {
@@ -220,7 +223,8 @@ const Paragraph1 = styled.div`
 `
 const Paragraph2 = styled.div`
     font-size: 15px;
-    line-height: 30px;
+    line-height: 1.5;
+letter-spacing: 1.5px;
     margin-top: 15px;
 
     @media (min-width: 300px) and (max-width: 768px) {

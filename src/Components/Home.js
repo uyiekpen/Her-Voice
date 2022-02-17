@@ -4,6 +4,11 @@ import HomeComp from './HomeComp'
 import About from './About'
 import Why from "./Why"
 import Success from './Success'
+import Event from './Event'
+import Team from './Team'
+import Contact from './Contact'
+import Footer from './Footer'
+
 
 
 
@@ -16,6 +21,10 @@ const Home = () => {
         <About/>
         <Why/>
         <Success/>
+        <Event/>
+        <Team/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }

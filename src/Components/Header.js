@@ -2,6 +2,8 @@ import React,{useState} from 'react'
 import styled from "styled-components"
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import SiderBar from './SiderBar';
+import { Link as LinkS } from "react-scroll"  
+
 
 const Header = () => {
     const [isOpen , setIsOpen] = useState(false)
@@ -16,11 +18,11 @@ const Header = () => {
                 .HerVoice
             </Logo>
             <Middle>
-            <Links>Home</Links>
-                <Links>About</Links>
-                <Links>Support Us</Links>
-                <Links>Events</Links>
-                <Links>Contact</Links>
+            <Links  to="home" spy={true} smooth={true}>Home</Links>
+                <Links  to="about" spy={true} smooth={true}>About</Links>
+                <Links  to="team" spy={true} smooth={true}>Team</Links>
+                <Links  to="events" spy={true} smooth={true}>Events</Links>
+                <Links  to="contact" spy={true} smooth={true}>Contact</Links>
             </Middle>
             <Donate>Donate</Donate>
             <Dehaze><DehazeIcon onClick={() =>{ onToggle()}} sx={{ fontSize: 40 }}/>
@@ -74,7 +76,7 @@ const Middle = styled.div`
     }
   
 `
-const Links = styled.div`
+const Links = styled(LinkS)`
     font-size: 15px;
     font-weight: bold;
     

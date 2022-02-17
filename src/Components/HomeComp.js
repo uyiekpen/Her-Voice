@@ -4,7 +4,7 @@ import styled from "styled-components"
 
 const HomeComp = () => {
   return (
-    <Container>
+    <Container id = "home">
         <Wrapper>
 
             <Top>Empowering Women and Girls world wide</Top>

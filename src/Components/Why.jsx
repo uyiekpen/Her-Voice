@@ -8,73 +8,75 @@ import {FaStethoscope} from "react-icons/fa"
 const Why = () => {
   return (
     <Div>
+      <Wrapper>
       <Holder>
-        <Name>why Support Us</Name>
-        <Name2>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</Name2>
-      </Holder>
-      <Cardholder>
-        <CardMain>
-        <Card>
-        <Icon>
-          <AiFillHeart />
-        </Icon>
-        <Heading>
-          Love
-          <br />
-          Womens
-        </Heading>
-        <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-</Talks>
-        <More>Read More</More>
-      </Card>
+      <Name>why Support Us</Name>
+      <Name2>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</Name2>
+    </Holder>
+    <Cardholder>
+      <CardMain>
       <Card>
-        <Icon>
-          <FaStethoscope />
-        </Icon>
-        <Heading>
-          Love
-          <br />
-          Womens
-        </Heading>
-        <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+      <Icon>
+        <AiFillHeart />
+      </Icon>
+      <Heading>
+        Love
+        <br />
+        Womens
+      </Heading>
+      <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
-        <More>Read More</More>
-      </Card>
-      <Card>
-        <Icon>
-          <MdBloodtype />
-        </Icon>
-        <Heading>
-          Donate
-          <br />
-          Blood
-        </Heading>
-        <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+      <More>Read More</More>
+    </Card>
+    <Card>
+      <Icon>
+        <FaStethoscope />
+      </Icon>
+      <Heading>
+        Love
+        <br />
+        Womens
+      </Heading>
+      <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
-        <More>Read More</More>
-      </Card>
-      <Card>
-        <Icon>
-          <GrRestroomWomen />
-        </Icon>
-        <Heading>
-          Save the
-          <br />
-          Womens
-        </Heading>
-        <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+      <More>Read More</More>
+    </Card>
+    <Card>
+      <Icon>
+        <MdBloodtype />
+      </Icon>
+      <Heading>
+        Donate
+        <br />
+        Blood
+      </Heading>
+      <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
-        <More>Read More</More>
-      </Card>
-        </CardMain>
-      </Cardholder>
+      <More>Read More</More>
+    </Card>
+    <Card>
+      <Icon>
+        <GrRestroomWomen />
+      </Icon>
+      <Heading>
+        Save the
+        <br />
+        Womens
+      </Heading>
+      <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+</Talks>
+      <More>Read More</More>
+    </Card>
+      </CardMain>
+    </Cardholder>
+      </Wrapper>
     </Div>
   );
 };
 
 export default Why;
 const Div = styled.div`
-  height: 600px;
+  height: 500px;
   width: 100%;
   /* margin-top: 10px; */
   display: flex;
@@ -87,8 +89,34 @@ const Div = styled.div`
   width: 100%;
   justify-content: center;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+
   }
 `;
+const Wrapper = styled.div`
+height: 500px;
+width: 90%;
+height: 500px;
+  width: 100%;
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 300px) and (max-width: 768px) {
+    height: 1200px;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  }
+
+`
+
+
 const Holder = styled.div`
   display: flex;
   align-items: center;
@@ -97,7 +125,7 @@ const Holder = styled.div`
   justify-content: center;
   padding: 9px;
   height: 220px;
-  width: 100vw;
+  width: 100%;
   margin-top: 10px;
     @media (min-width: 300px) and (max-width: 768px) {
     display: flex;
