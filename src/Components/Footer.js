@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Container>
     <Wrapper>
-    <WebsiteRights>UO © {new Date().getFullYear()}All rights reserved</WebsiteRights>
+    <WebsiteRights>HerVoice © {new Date().getFullYear()}All rights reserved</WebsiteRights>
     <SocialIcons>
                             <SocialIconLink href="https://web.facebook.com/osazieelizabeth.uyiekpen" target="_blank" aria-label="facebook">
                                 <FaFacebook/>
@@ -69,6 +69,12 @@ justify-content: center;
 justify-content: space-between;
 align-items: center;
 @media (min-width: 300px) and (max-width: 768px) {
+  height: 70px;
+width: 90%;
+display: flex;
+justify-content: center;
+justify-content: space-between;
+align-items: center;
 }
 
 `
@@ -82,5 +88,13 @@ align-items: center;
 background-color: #000000;
 color: #fff;
 @media (min-width: 300px) and (max-width: 768px) {
+  height: 70px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #000000;
+color: #fff;
+margin-bottom: 20px;
 }
 `

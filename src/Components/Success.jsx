@@ -9,25 +9,25 @@ const Success = () => {
      <Logg>
        <Two>
          <REsult>
-           <Title>Sexual Volience</Title>
-           <Num>49,8,729</Num>
+           <Title>Sexual Violence</Title>
+           <Num>0</Num>
          </REsult>
          <Space/>
          <REsult>
            <Title>People helped</Title>
-           <Num>49,8,729</Num>
+           <Num>50</Num>
          </REsult>
          <Space/>
 
          <REsult>
            <Title>Female Abused stop</Title>
-           <Num>49,8,729</Num>
+           <Num>0</Num>
          </REsult>
          <Space/>
 
          <REsult>
            <Title>No of communities</Title>
-           <Num>49,8,729</Num>
+           <Num>10</Num>
          </REsult>
        </Two>
      </Logg>
@@ -84,7 +84,7 @@ const First2 = styled.div`
   font-size: 34px;
   color: white;
   @media (min-width: 300px) and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
   }
 `;
@@ -112,6 +112,7 @@ const Two = styled.div`
   @media (min-width: 300px) and (max-width: 768px) {
     margin-top: 10px;
       height: 120px;
+      padding-bottom: 10px;
 
 
   }
@@ -126,6 +127,7 @@ const Title = styled.div`
 const Num = styled.div`
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 `;
 const Space = styled.div`
 height: 70px;

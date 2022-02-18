@@ -11,12 +11,12 @@ const Event = () => {
             </TextHolder>
             <CardHolder>
                
-                <Card2>
-                    <Text2>Young kids on the street of Ajegunle</Text2>
+                <Card3>
+                    <Text2>feeding of Young kids on the street of Ajegunle</Text2>
                     <Date>Monday 02 March 2022</Date>
-                </Card2>
+                </Card3>
                 <Card2>
-                    <Text2>Young kids on the street of Ajegunle</Text2>
+                    <Text2>SheCodes Ajegunle</Text2>
                     <Date>Monday 02 March 2022</Date>
 
                 </Card2>
@@ -71,7 +71,38 @@ background-repeat: no-repeat;
     background-position: top; 
     }
 `
-
+const Card3 = styled.div`
+height: 300px;
+width: 400px;
+background-color: beige;
+margin: 5px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+padding: 15px;
+color: #fff;
+background-image: url("/assests/kids.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    opacity: 0.6;
+    @media (min-width: 300px) and (max-width: 768px) {
+        height: 200px;
+width: 250px;
+background-color: beige;
+margin: 5px;
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+opacity: 0.6;
+padding: 15px;
+color: #fff;
+background-image: url("/assests/kids.jpg");
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top; 
+    }
+`
 
 // const Card = styled.div`
 // height: 300px;

@@ -12,23 +12,23 @@ const Team = () => {
             <CardHolder>
             
             <Card>
-            <Image src="/assests/profile.jpg"/>
+            <Image src="/assests/bukky.jpg"/>
             <Name>Bukola Gbemi</Name>
             <Position>Founder of SheCodes Ajegunle</Position>
             </Card>
             <Card>
-            <Image src="/assests/profile.jpg"/>
+            <Image src="/assests/osa2.JPG"/>
             <Name>Uyiekpen Osazie</Name>
             <Position>Project Manager</Position>
 
             </Card>  
             <Card>
-            <Image src="/assests/profile.jpg"/>
+            <Image src="/assests/lucy.jpg"/>
             <Name>Luciana Anozie</Name>
             <Position>Ass. Project Manager</Position>
             </Card>
             <Card>
-            <Image src="/assests/profile.jpg"/>
+            <Image src="/assests/odun.jpg"/>
             <Name>Precoius Onuegbu</Name>
             <Position>Content Creator</Position>
             </Card>

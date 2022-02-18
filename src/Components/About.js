@@ -11,8 +11,8 @@ const About = () => {
             </Top>
             <Bottom>
                 <Upper>
-                    <Little>Campaign About the Awareness of Drug Abuse</Little>
-                    <Large>DRUG ABUSE & SEXUAL VIOLENCE CAMPAIGN</Large>
+                    <Little>Campaign About the Awareness of Rape</Little>
+                    <Large>RAPE AND DOMESTIC VIOLENCE CAMPAIGN</Large>
                 </Upper>
                 <Lower>
                     <Left src="/assests/black.jpg"/>
@@ -21,7 +21,7 @@ const About = () => {
                         <Paragraph>Nulla quis lorem ut libero malesuada feugiat. Nulla quis lorem ut libero malesuada feugiat. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
                         <Paragraph1>
-                        Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat.
+                        
                         </Paragraph1>
 
                         <Paragraph2>WE APPRECIATE YOUR HELP TO US</Paragraph2>

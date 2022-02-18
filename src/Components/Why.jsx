@@ -219,6 +219,7 @@ const Card = styled.div`
   flex-direction: column;
   background-color: white;
   border-radius: 5px;
+  text-align: center;
   :hover {
     background-color: #f2f2f2;
   }
@@ -232,6 +233,8 @@ const Card = styled.div`
   flex-direction: column;
   background-color: white;
   border-radius: 5px;
+    text-align: center;
+
   }
 `;
 const Icon = styled.div`
@@ -266,11 +269,14 @@ const Talks = styled.div`
   opacity: 0.5;
   display: flex;
   justify-content: center;
+  text-align: center;
   @media (min-width: 300px) and (max-width: 768px) {
   margin: 20px;
   display: flex;
   justify-content: center;
   font-size: 15px;
+  text-align: center;
+
   }
 `;
 const More = styled.div`
