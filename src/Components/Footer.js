@@ -95,6 +95,6 @@ justify-content: center;
 align-items: center;
 background-color: #000000;
 color: #fff;
-margin-bottom: 20px;
+margin-bottom: -70px;
 }
 `

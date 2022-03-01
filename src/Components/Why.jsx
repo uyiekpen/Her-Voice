@@ -9,19 +9,18 @@ const Why = () => {
   return (
     <Div>
       <Wrapper>
-      <Holder>
-      <Name>why Support Us</Name>
-      <Name2>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.</Name2>
-    </Holder>
+        <Holder>
+        <Name>why Support Us</Name>
+        <Name2>Your donations help Her Voice to support survivors of rape and domestic violence</Name2>
+      </Holder>
     <Cardholder>
       <CardMain>
-      <Card>
-      <Icon>
-        <AiFillHeart />
-      </Icon>
+        <Card>
+        <Icon>
+          <AiFillHeart />
+        </Icon>
       <Heading>
         Love
-        <br />
         Womens
       </Heading>
       <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
@@ -33,9 +32,8 @@ const Why = () => {
         <FaStethoscope />
       </Icon>
       <Heading>
-        Love
-        <br />
-        Womens
+        protect
+        Women
       </Heading>
       <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
@@ -46,9 +44,7 @@ const Why = () => {
         <MdBloodtype />
       </Icon>
       <Heading>
-        Donate
-        <br />
-        Blood
+        give them a skills
       </Heading>
       <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
@@ -59,9 +55,8 @@ const Why = () => {
         <GrRestroomWomen />
       </Icon>
       <Heading>
-        Save the
-        <br />
-        Womens
+        Empower the
+        Women
       </Heading>
       <Talks>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
 </Talks>
@@ -75,219 +70,227 @@ const Why = () => {
 };
 
 export default Why;
-const Div = styled.div`
-  height: 500px;
-  width: 100%;
-  /* margin-top: 10px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
-    @media (min-width: 300px) and (max-width: 768px) {
-    height: 1200px;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
-  }
-`;
-const Wrapper = styled.div`
-height: 500px;
-width: 90%;
-height: 500px;
-  width: 100%;
-  /* margin-top: 10px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  @media (min-width: 300px) and (max-width: 768px) {
-    height: 1200px;
-  width: 90%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-
-  }
+const More = styled.div`
+margin-top: 20px;
+font-weight: bold;
+color: #E95390;
 
 `
 
+const Talks = styled.div`
+width: 220px;
+text-align: center;
+margin-top: 20px;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  width: 180px;
+text-align: center;
+margin-top: 20px;
+}
 
-const Holder = styled.div`
-  display: flex;
-  align-items: center;
-  background-color: white;
-  flex-direction: column;
-  justify-content: center;
-  padding: 9px;
-  height: 220px;
-  width: 100%;
-  margin-top: 10px;
-    @media (min-width: 300px) and (max-width: 768px) {
-    display: flex;
-  align-items: center;
-  background-color: white;
-  flex-direction: column;
-  padding: 9px;
+`
 
-  } 
- 
-`;
-const Name = styled.div`
-  color: #E9538D;
-  font-weight: bold;
-  font-size: 26px;
-  text-transform: capitalize;
-    @media (min-width: 300px) and (max-width: 768px) {
-  color: #E9538D;
-  font-weight: bold;
-  font-size: 20px;
-  text-transform: capitalize;
-  }
-`;
-const Name2 = styled.div`
-  font-size: 16px;
-  height: 20px;
-  text-align: center;
-  font-weight: bold;
-    @media (min-width: 300px) and (max-width: 768px) {
-    font-size: 12px;
-  height: 20px;
-  text-align: center;
-  font-weight: bold;
-  }
+const Heading = styled.div`
+margin-top: 20px;
+text-transform: capitalize;
+@media (min-width: 1024px) and (max-width: 1440px) {
+}
 
+`
 
-`;
-const Cardholder = styled.div`
-  display: flex;
-  height: 350px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-
-    @media (min-width: 300px) and (max-width: 768px) {
-  }
-  display: flex;
-  height: 1100px;
-  width: 100%;
-  margin-top: 20px;
-  align-items: center;
-  justify-content: center;
-  
-`;
-
-const CardMain = styled.div`
-display: flex;
-  margin: 5px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  height: 350px;
-  width: 90%;
-  border-radius: 12px;
-  margin-top: 20px;
-  background-color: whitesmoke;
-  align-items: center;
-  @media (min-width: 300px) and (max-width: 768px) {
-    display: flex;
-  margin: 5px;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  height: 1100px;
-  width: 90%;
-  border-radius: 12px;
-  margin-top: 20px;
-  background-color: whitesmoke;
-  align-items: center;
-  }
-
-
+const Icon = styled.div`
+font-size: 40px;
+margin-top: 20px;
 `
 
 const Card = styled.div`
-  margin: 5px;
+height: 300px;
+width: 250px;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+align-items: center;
+@media (min-width: 1024px) and (max-width: 1440px) {
   height: 300px;
-  width: 250px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 5px;
-  text-align: center;
-  :hover {
-    background-color: #f2f2f2;
-  }
-  @media (min-width: 300px) and (max-width: 768px) {
-    margin: 5px;
-  height: 250px;
-  width: 230px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: white;
-  border-radius: 5px;
-    text-align: center;
+width: 200px;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+align-items: center;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  height: 270px;
+width: 250px;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+align-items: center;
+}
+`
 
-  }
-`;
-const Icon = styled.div`
+const CardMain = styled.div`
+height: 400px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:center;
+@media (min-width: 1024px) and (max-width: 1440px) {
+height: 400px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:center;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  height: 1200px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+flex-direction: row;
+justify-content: space-evenly;
+align-items:center;
+flex-wrap: wrap;
+}
+
+`
+
+const Cardholder = styled.div`
+height: 400px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  height: 400px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  height: 1200px;
+width: 90vw;
+background-color: whitesmoke;
+display: flex;
+border-radius: 12px;
+}
+`
+
+const Name2 = styled.div`
+text-transform: capitalize;
+font-weight:bold;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  text-transform: capitalize;
+font-weight:bold;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  text-transform: capitalize;
+font-weight:bold;
+font-size: 12px;
 margin-top: 10px;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  @media (min-width: 300px) and (max-width: 768px) {
-    margin-top: 10px;
-  font-size: 25px;
-  display: flex;
-  justify-content: center;
-  }
-`;
-const Heading = styled.div`
-  display: flex;
-  justify-content: center;
-  font-size: 18px;
-  text-align: center;
-  font-weight: 700;
-  @media (min-width: 300px) and (max-width: 768px) {
-    display: flex;
-  justify-content: center;
-  font-size: 15px;
-  text-align: center;
-  font-weight: 700;
-  }
-`;
-const Talks = styled.div`
-  margin: 25px;
-  line-height: 20px;
-  opacity: 0.5;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  @media (min-width: 300px) and (max-width: 768px) {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  font-size: 15px;
-  text-align: center;
+}
 
-  }
-`;
-const More = styled.div`
-  color: red;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  @media (min-width: 300px) and (max-width: 768px) {
-    color: red;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  }
-`;
+
+`
+
+const Name = styled.div`
+font-size: 30px;
+text-transform: capitalize;
+font-weight:bold;
+color: #E95390;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  font-size: 30px;
+text-transform: capitalize;
+font-weight:bold;
+color: #E95390;
+}
+@media (min-width: 300px) and (max-width: 768px) {
+  font-size: 20px;
+text-transform: capitalize;
+font-weight:bold;
+color: #E95390;
+margin-top: 10px;
+
+}
+`
+
+const Holder = styled.div`
+height: 100px;
+width: 90vw;
+text-align: center;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  height: 100px;
+width: 90vw;
+text-align: center;
+}
+`
+
+const Wrapper = styled.div`
+height: 500px;
+width: 90vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+@media (min-width: 1024px) and (max-width: 1440px) {
+  height: 500px;
+width: 90vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+    }
+    @media (min-width: 300px) and (max-width: 768px) {
+      height: 1300px;
+width: 90vw;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+  
+
+`
+
+const Div = styled.div`
+height: 500px;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+  height: 500px;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+    }
+
+@media (min-width: 300px) and (max-width: 768px) {
+  height: 1300px;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+`

@@ -38,6 +38,7 @@ const Success = () => {
 
 export default Success;
 const Div = styled.div`
+margin-top: 30px;
   height: 200px;
   background-color: #E9538D;
   color: white;
